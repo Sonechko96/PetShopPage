@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <div class="menu-burger"><a class="menu-burger__link" href="#">Main</a><a class="menu-burger__link" href="#">Gallery</a><a class="menu-burger__link" href="#">News</a><a class="menu-burger__link" href="#">Profile</a></div>
+      <button class="menu-btn"><span></span></button>
+    </section>
+    <div class="header">
+      <div class="container"><a class="header__logo" href="#"><img src="../img/logo.svg"></a>
+        <div class="menu-block">
+          <nav class="menu-nav"><a class="menu-nav__link" href="#">Main</a><a class="menu-nav__link" href="#">Gallery</a><a class="menu-nav__link" href="#">News</a><a class="menu-nav__link" href="#">Profile</a></nav>
+        </div>
+        <div class="header__contact"><a href="tel:+544349000000">+544 3490 00000</a><span>Звони скорее!</span></div>
+        <div class="header__title">Найдено 349 котов</div>
+      </div>
+    </div>
+    <div class="container">
+      <section class="cat-cards">
+        <div class="container">
+          <div class="cat-cards__sorting">Сортировать по:
+            <label>Цене
+              <button class="sorting-price" name="price"><svg width="15" height="9" fill="none" xmlns="http://www.w3.org/2000/svg" class='arrowUp'><path d="M8.085 8.667l6.675-6.675a.815.815 0 00.24-.58.815.815 0 00-.24-.58L14.27.34a.822.822 0 00-1.16 0L7.502 5.945 1.892.333a.815.815 0 00-.58-.24.816.816 0 00-.581.24L.24.825a.815.815 0 00-.24.58c0 .22.085.426.24.58l6.68 6.682c.156.155.363.24.583.24.22 0 .427-.085.582-.24z" fill="#000"/></svg></button>
+            </label>
+            <label>Возрасту
+              <button class="sorting-age" name="age"><svg width="15" height="9" fill="none" xmlns="http://www.w3.org/2000/svg" class='arrowUp'><path d="M8.085 8.667l6.675-6.675a.815.815 0 00.24-.58.815.815 0 00-.24-.58L14.27.34a.822.822 0 00-1.16 0L7.502 5.945 1.892.333a.815.815 0 00-.58-.24.816.816 0 00-.581.24L.24.825a.815.815 0 00-.24.58c0 .22.085.426.24.58l6.68 6.682c.156.155.363.24.583.24.22 0 .427-.085.582-.24z" fill="#000"/></svg></button>
+            </label>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="grid__cell grid__cell_1-3">
+            <div class="cat-card" id="1">
+              <div class="cat-card__foto"><img src="../img/foto1.png"></div>
+              <div class="cat-card__sale">-40%</div>
+              <div class="cat-card__like pass"><svg width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.781 2.695c-2.496 0-4.784.791-6.802 2.351-1.933 1.496-3.221 3.4-3.979 4.786-.758-1.385-2.046-3.29-3.98-4.786-2.017-1.56-4.305-2.35-6.801-2.35C5.253 2.695 0 8.392 0 15.947c0 8.163 6.553 13.748 16.475 22.203a571.533 571.533 0 015.579 4.798 1.435 1.435 0 001.892 0c1.985-1.735 3.895-3.363 5.58-4.8C39.447 29.697 46 24.112 46 15.95c0-7.556-5.253-13.254-12.219-13.254z" fill="#fff" fill-opacity=".5"/></svg></div>
+              <div class="cat-card__title">Кот полосатый</div>
+              <div class="cat-card__appearance">
+                <div class="cat-card__color">Коричневый <br> окрас</div>
+                <div class="cat-card__age"><span>2 мес.</span> <br> Возраст</div>
+                <div class="cat-card__feet"><span>4</span><br> Кол-во лап</div>
+              </div>
+              <div class="cat-card__price"><span>32 000</span> руб.</div>
+              <button class="cat-card__btn sold">Купить</button>
+            </div>
+          </div>
+          <div class="grid__cell grid__cell_1-3">
+            <div class="cat-card" id="2">
+              <div class="cat-card__foto"><img src="../img/foto2.png"></div>
+              <div class="cat-card__sale">-40%</div>
+              <div class="cat-card__like pass"><svg width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.781 2.695c-2.496 0-4.784.791-6.802 2.351-1.933 1.496-3.221 3.4-3.979 4.786-.758-1.385-2.046-3.29-3.98-4.786-2.017-1.56-4.305-2.35-6.801-2.35C5.253 2.695 0 8.392 0 15.947c0 8.163 6.553 13.748 16.475 22.203a571.533 571.533 0 015.579 4.798 1.435 1.435 0 001.892 0c1.985-1.735 3.895-3.363 5.58-4.8C39.447 29.697 46 24.112 46 15.95c0-7.556-5.253-13.254-12.219-13.254z" fill="#fff" fill-opacity=".5"/></svg></div>
+              <div class="cat-card__title">Кот полосатый</div>
+              <div class="cat-card__appearance">
+                <div class="cat-card__color">Коричневый <br> окрас</div>
+                <div class="cat-card__age"><span>2 мес.</span> <br> Возраст</div>
+                <div class="cat-card__feet"><span>4</span><br> Кол-во лап</div>
+              </div>
+              <div class="cat-card__price"><span>33 000</span> руб.</div>
+              <button class="cat-card__btn sold">Купить</button>
+            </div>
+          </div>
+          <div class="grid__cell grid__cell_1-3">
+            <div class="cat-card" id="3">
+              <div class="cat-card__foto"><img src="../img/foto3.png"></div>
+              <div class="cat-card__sale">-40%</div>
+              <div class="cat-card__like pass"><svg width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.781 2.695c-2.496 0-4.784.791-6.802 2.351-1.933 1.496-3.221 3.4-3.979 4.786-.758-1.385-2.046-3.29-3.98-4.786-2.017-1.56-4.305-2.35-6.801-2.35C5.253 2.695 0 8.392 0 15.947c0 8.163 6.553 13.748 16.475 22.203a571.533 571.533 0 015.579 4.798 1.435 1.435 0 001.892 0c1.985-1.735 3.895-3.363 5.58-4.8C39.447 29.697 46 24.112 46 15.95c0-7.556-5.253-13.254-12.219-13.254z" fill="#fff" fill-opacity=".5"/></svg></div>
+              <div class="cat-card__title">Кот полосатый</div>
+              <div class="cat-card__appearance">
+                <div class="cat-card__color">Коричневый <br> окрас</div>
+                <div class="cat-card__age"><span>2 мес.</span> <br> Возраст</div>
+                <div class="cat-card__feet"><span>4</span><br> Кол-во лап</div>
+              </div>
+              <div class="cat-card__price"><span>36 000</span> руб.</div>
+              <button class="cat-card__btn">Купить</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="grid__cell grid__cell_1-3">
+            <div class="cat-card" id="4">
+              <div class="cat-card__foto"><img src="../img/foto1.png"></div>
+              <div class="cat-card__sale">-40%</div>
+              <div class="cat-card__like pass"><svg width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.781 2.695c-2.496 0-4.784.791-6.802 2.351-1.933 1.496-3.221 3.4-3.979 4.786-.758-1.385-2.046-3.29-3.98-4.786-2.017-1.56-4.305-2.35-6.801-2.35C5.253 2.695 0 8.392 0 15.947c0 8.163 6.553 13.748 16.475 22.203a571.533 571.533 0 015.579 4.798 1.435 1.435 0 001.892 0c1.985-1.735 3.895-3.363 5.58-4.8C39.447 29.697 46 24.112 46 15.95c0-7.556-5.253-13.254-12.219-13.254z" fill="#fff" fill-opacity=".5"/></svg></div>
+              <div class="cat-card__title">Кот полосатый</div>
+              <div class="cat-card__appearance">
+                <div class="cat-card__color">Коричневый <br> окрас</div>
+                <div class="cat-card__age"><span>2 мес.</span> <br> Возраст</div>
+                <div class="cat-card__feet"><span>4</span><br> Кол-во лап</div>
+              </div>
+              <div class="cat-card__price"><span>31 000</span> руб.</div>
+              <button class="cat-card__btn">Купить</button>
+            </div>
+          </div>
+          <div class="grid__cell grid__cell_1-3">
+            <div class="cat-card" id="5">
+              <div class="cat-card__foto"><img src="../img/foto2.png"></div>
+              <div class="cat-card__sale">-40%</div>
+              <div class="cat-card__like pass"><svg width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.781 2.695c-2.496 0-4.784.791-6.802 2.351-1.933 1.496-3.221 3.4-3.979 4.786-.758-1.385-2.046-3.29-3.98-4.786-2.017-1.56-4.305-2.35-6.801-2.35C5.253 2.695 0 8.392 0 15.947c0 8.163 6.553 13.748 16.475 22.203a571.533 571.533 0 015.579 4.798 1.435 1.435 0 001.892 0c1.985-1.735 3.895-3.363 5.58-4.8C39.447 29.697 46 24.112 46 15.95c0-7.556-5.253-13.254-12.219-13.254z" fill="#fff" fill-opacity=".5"/></svg></div>
+              <div class="cat-card__title">Кот полосатый</div>
+              <div class="cat-card__appearance">
+                <div class="cat-card__color">Коричневый <br> окрас</div>
+                <div class="cat-card__age"><span>2 мес.</span> <br> Возраст</div>
+                <div class="cat-card__feet"><span>4</span><br> Кол-во лап</div>
+              </div>
+              <div class="cat-card__price"><span>20 000</span> руб.</div>
+              <button class="cat-card__btn">Купить</button>
+            </div>
+          </div>
+          <div class="grid__cell grid__cell_1-3">
+            <div class="cat-card" id="6">
+              <div class="cat-card__foto"><img src="../img/foto3.png"></div>
+              <div class="cat-card__sale">-40%</div>
+              <div class="cat-card__like pass"><svg width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.781 2.695c-2.496 0-4.784.791-6.802 2.351-1.933 1.496-3.221 3.4-3.979 4.786-.758-1.385-2.046-3.29-3.98-4.786-2.017-1.56-4.305-2.35-6.801-2.35C5.253 2.695 0 8.392 0 15.947c0 8.163 6.553 13.748 16.475 22.203a571.533 571.533 0 015.579 4.798 1.435 1.435 0 001.892 0c1.985-1.735 3.895-3.363 5.58-4.8C39.447 29.697 46 24.112 46 15.95c0-7.556-5.253-13.254-12.219-13.254z" fill="#fff" fill-opacity=".5"/></svg></div>
+              <div class="cat-card__title">Кот полосатый</div>
+              <div class="cat-card__appearance">
+                <div class="cat-card__color">Коричневый <br> окрас</div>
+                <div class="cat-card__age"><span>2 мес.</span> <br> Возраст</div>
+                <div class="cat-card__feet"><span>4</span><br> Кол-во лап</div>
+              </div>
+              <div class="cat-card__price"><span>5 000</span> руб.</div>
+              <button class="cat-card__btn sold">Купить</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="grid">
+          <div class="grid__cell grid__cell_1-3"></div>
+          <div class="grid__cell grid__cell_1-3">
+            <button class="cat-cards__btn cat-cards__btn-more">Показать еще 20</button>
+          </div>
+          <div class="grid__cell grid__cell_1-3"></div>
+        </div>
+      </div>
+      <button class="cat-cards__btn-up scrollUp"><svg width="18" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.298 1L.288 9.01A.977.977 0 000 9.706c0 .264.102.51.288.696l.59.59a.986.986 0 001.392 0l6.726-6.726L15.73 11a.978.978 0 00.696.287.979.979 0 00.697-.288l.59-.59A.978.978 0 0018 9.714a.977.977 0 00-.288-.696L9.695 1a.979.979 0 00-.698-.287.979.979 0 00-.7.287z" fill="#fff"/></svg></button>
+    </div>
+    <div class="container">
+      <div class="footer">
+        <div class="grid">
+          <div class="grid__cell grid__cell_1-3">
+            <div class="footer__title">Успей купить!</div>
+            <div class="footer__description">Подпишись и успей <br> словить все акции</div>
+          </div>
+          <div class="grid__cell">
+            <form method="post" action="#">
+              <div class="footer__contact">
+                <input class="footer__email" type="email" placeholder="Email">
+                <button class="footer__btn">Подписаться</button>
+                <div class="footer__check">
+                  <input class="foot-check" type="checkbox" id="foot-check">
+                  <label for="foot-check">Подписаться на новости</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

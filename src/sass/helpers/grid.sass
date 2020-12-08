@@ -1,0 +1,48 @@
+.grid
+  margin-left: -15px
+  margin-right: -15px
+  &_mobile
+    display: flex
+  &_multiline
+    flex-wrap: wrap
+  &__cell
+    display: block
+    flex-basis: 0
+    flex-grow: 1
+    flex-shrink: 1
+    padding: 15px
+    &_narrow
+      flex: none
+  &_vert-gap-20 &__cell
+    margin-bottom: -10px
+
+@media screen and (min-width: 769px)
+  .grid
+    display: flex
+    &__cell
+      &_1-2
+        flex: none
+        width: 50%
+      &_1-3
+        flex: none
+        width: 33.33333%
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px)
+  .grid
+    &__cell
+      &_full_md
+        flex: none
+        width: 100%
+      &_1-2_md
+        flex: none
+        width: 50%
+      &_1-3_md
+        flex: none
+        width: 33.33333%
+
+
+
+
+.p-80
+  padding: 80px
